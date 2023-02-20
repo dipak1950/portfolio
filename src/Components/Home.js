@@ -6,6 +6,25 @@ function Home() {
     <>
       <main>
         <section>
+          <div className='hero'>
+            <div className='container'>
+              <div className='row'>
+                <div className="content">
+                  <h4>Hello, my name is</h4>
+                  <h1>Dipak <span>Nimavat</span></h1>
+                  <h3>I'am Web Devloper.</h3>
+                  <div className="newslatter">
+                    <form>
+                      <input type="email" name="email" id="mail" placeholder="Enter Your Email" />
+                      <input type="Submit" name="submit" defaultValue="Lets Starts" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
           <div className="about w-12">
             <div className="container">
               <div className="row">

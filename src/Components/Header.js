@@ -13,7 +13,7 @@ function Header() {
   return (
     <div className="container">
       <div className="row">
-        <div className="hero w-12">
+        <div className="navbar w-12">
           <nav>
             <h2 className="logo">Portfo<span>lio</span></h2>
             <ul>
@@ -25,17 +25,6 @@ function Header() {
             </ul>
             <Button className="btn" onClick={() => { click() }}>Resume</Button>
           </nav>
-          <div className="content">
-            <h4>Hello, my name is</h4>
-            <h1>Dipak <span>Nimavat</span></h1>
-            <h3>I'am Web Devloper.</h3>
-            <div className="newslatter">
-              <form>
-                <input type="email" name="email" id="mail" placeholder="Enter Your Email" />
-                <input type="Submit" name="submit" defaultValue="Lets Starts" />
-              </form>
-            </div>
-          </div>
         </div>
       </div>
     </div>
